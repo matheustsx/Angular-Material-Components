@@ -1,11 +1,21 @@
-<mat-form-field>
-    <div class="input-wrapper">
-        <mat-label>Data inicial</mat-label>
-        <mat-date-range-input [rangePicker]="picker">
-          <input matStartDate placeholder="Start date">
-          <input matEndDate placeholder="End date">
-        </mat-date-range-input>
-        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-date-range-picker #picker></mat-date-range-picker>
-    </div>
+<mat-form-field appearance="outline" color="primary" class="input-datepicker">
+  <mat-label>Data inicial</mat-label>
+  <input matInput [matDatepicker]="picker">
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
 </mat-form-field>
+
+
+
+
+<!-- 
+<div class="grid-box">
+  <div>
+    <mat-form-field appearance="outline" color="primary">
+      <mat-label>Data inicio</mat-label>
+      <input matInput [matDatepicker]="picker">
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+</div> -->

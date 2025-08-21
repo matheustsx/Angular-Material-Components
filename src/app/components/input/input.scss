@@ -1,0 +1,38 @@
+// .grid-box {
+//     display: grid;
+//     grid-template-columns: repeat(3, 33.33%);
+//     margin: 10px;
+// }
+
+// .grid-box>div {
+//     -webkit-box-shadow: 0px 8px 37px 0px rgba(0, 0, 0, 0.15);
+//     -moz-box-shadow: 0px 8px 37px 0px rgba(0, 0, 0, 0.15);
+//     box-shadow: 15px;
+//     padding: 15px;
+//     text-align: center;
+//     border-right: 1px solid black;
+// }
+
+.input-datepicker {
+  border-radius: 12px;
+}
+
+.input-datepicker .mat-form-field-flex {
+  border-radius: 12px;
+}
+
+.input-datepicker .mat-form-field-outline-start {
+  border-radius: 12px 0 0 12px !important;
+  border-right: none !important;
+}
+
+.input-datepicker .mat-form-field-outline-gap {
+  border-radius: 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.input-datepicker .mat-form-field-outline-end {
+  border-radius: 0 12px 12px 0 !important;
+  border-left: none !important;
+}
